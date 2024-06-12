@@ -1,0 +1,1277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <!-- Page Title -->
+    <title>PARI Technologies</title>
+    <!--/ Page Title -->
+
+    <meta name="author" content="PARI Technologies">
+    <meta name="Description" content="Software Development Company in KL | Malaysia ">
+    <meta name="keywords" content="Software, Malaysia, Software Development, creative">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title" content="PARI Technologies | Software Development Company in KL | Malaysia">
+    <meta property="og:description" content="Software Development Company in KL | Malaysia ">
+    <meta property="og:url" content="https://pari.com.my/">
+    <meta property="og:site_name" content="PARI Technologies">
+
+    <link href="css/plugins.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <link href="slider.css" rel="stylesheet">
+    <link href="testimoni.css" rel="stylesheet">
+    <link href="floating_btn.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="img/pari_logo.png" />
+    <link rel="apple-touch-icon" href="img/pari_logo.png" />
+    <!--/ Favicons -->
+
+    <style>
+        html * {
+          font-family: TitilliumWeb;
+        }
+        .outer-container {
+            /* border: 1px dotted black; */
+            width: 100%;
+            height: 100%;
+            text-align: center;
+        }
+        .inner-container {
+            /* border: 1px solid black; */
+            display: inline-block;
+            position: relative;
+        }
+        .video-overlay {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            background-color: rgba(0,0,0,0.3);
+            /* right: 0px;
+            top: 70px; */
+            padding: 10px;
+            padding-top: 40%;
+            padding-left:60%;
+            color: #FFF;
+        }
+        video {
+            width: 100%;
+            height: 100%;
+        }
+        @font-face {
+            font-family: Jura;
+            src: url(font/Jura/static/Jura-Regular.ttf);
+        }
+        @font-face {
+            font-family: Baskerville;
+            src: url(font/Baskervville/Baskervville-Regular.ttf);
+        }
+        @font-face {
+            font-family: TitilliumWeb;
+            src: url(font/TitilliumWeb/TitilliumWeb-Regular.ttf);
+        }
+        .btnKnwMor {
+            /* width: 80px;
+            height: 50px; */
+            border:none;
+            border:solid 2px white;
+            border-radius: 50px;
+            padding-left:25px;
+            padding-right:25px;
+            background: none;
+            color: white;
+            font-size: 20px;
+            font-family: Jura;
+            }
+            /* Fading animation */
+            .fade {
+            animation-name: fade;
+            animation-duration: 1.5s;
+            }
+
+            @keyframes fade {
+            from {opacity: .4} 
+            to {opacity: 1}
+            }
+            /* The dots/bullets/indicators */
+            .dot {
+            height: 15px;
+            width: 15px;
+            margin: 0 2px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+            transition: background-color 0.6s ease;
+            }
+
+            .active {
+            background-color: #717171;
+            }
+
+            .font4vw{
+                font-size:4vw;
+            }
+
+            .font3vwcenter{
+                font-size: 3vw;
+                text-align:center
+            }
+
+            .aboutus_title{
+                font-family: Jura; 
+                font-size: 50px;
+            }
+            .aboutus_subtitle{
+                font-size: 20px;
+                text-transform:none;
+                color:white;
+            }
+
+            .testimonial_space {
+                height: 42vw
+            }
+            
+            .column_left {
+              float: left;
+              padding-left:50px;
+              width: 40%;
+            }
+            
+            .column_left_image {
+              float: left;
+              padding-left:80px;
+              width: 30%;
+            }
+            
+            .column_right {
+              float: left;
+              width: 60%;
+            }
+            .column_right_image {
+              padding-top:10px;
+              float: left;
+              width: 70%;
+            }
+            
+            /* Clear floats after the columns */
+            .row:after {
+              content: "";
+              display: table;
+              clear: both;
+            }
+            
+            @media only screen and (max-width: 600px) {
+            .font4vw{
+                    font-size:7vw;
+            }
+
+            .font3vwcenter{
+                font-size: 5vw;
+                text-align:center
+            }
+
+            .video-overlay {
+               padding-top: 10%;
+               padding-left:50%;
+            }
+
+            .aboutus_title{
+                font-family: Jura; 
+                font-size: 25px;
+            }
+            .aboutus_subtitle{
+                font-size: 13px;
+                text-transform:none;
+                color:white;
+            }
+
+            .btnKnwMor {
+                font-size: 13px;
+            }
+
+            .testimonial_space {
+                height: 142vw
+            }
+            .center {
+              display: block;
+              margin-left: auto;
+              margin-right: auto;
+              width: 50%;
+            }
+            .social-buttons {
+              display: flex;
+              flex-direction: column;
+            }
+            
+             .image img {
+                width: 100%;
+                height: 100%;
+                }
+                
+                .image {
+                position: relative;
+                }
+                
+                .image figcaption{
+                position: absolute;
+                top: 50%;
+                bottom: 50%;
+                left: 40%;
+                }
+            
+            
+        }
+        
+         /* The Modal (background) */
+        .modal {
+          display: none; /* Hidden by default */
+          position: fixed; /* Stay in place */
+          z-index: 1; /* Sit on top */
+          left: 0;
+          top: 0;
+          width: 100%; /* Full width */
+          height: 100%; /* Full height */
+          overflow: auto; /* Enable scroll if needed */
+          background-color: rgb(0,0,0); /* Fallback color */
+          background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+        }
+        
+        /* Modal Content/Box */
+        .modal-content {
+          background-color: white;
+          margin: 15% auto; /* 15% from the top and centered */
+          padding: 20px;
+          border-radius: 10px;
+          border: 1px solid white;
+          width: 50%; /* Could be more or less, depending on screen size */
+        }
+        
+        /* The Close Button */
+        .close {
+          color: #aaa;
+          float: right;
+          font-size: 28px;
+          font-weight: bold;
+        }
+        
+        .close:hover,
+        .close:focus {
+          color: black;
+          text-decoration: none;
+          cursor: pointer;
+        } 
+        
+    </style>
+</head>
+
+<body data-header-sticky="true" data-menu-style="overlay" data-page-layout="light" data-header-layout="dark" data-menu-layout="light" data-footer-layout="light">
+
+
+    <!--Page Loader-->
+    <div data-duration="0" class="alioth-page-loader" data-layout="light">
+
+        <span class="apl-background"></span>
+
+        <!--Loader Percentage (Don't Touch)-->
+        <div class="apl-count"></div>
+        <!--Loader Percentage (Don't Touch)-->
+
+    </div>
+    <!--/Page Loader-->
+
+    <!--Page Transitions-->
+    <!--<div class="alioth-page-transitions" data-layout="light">-->
+
+        <!--Transition Background (Don't touch)-->
+    <!--    <span class="apt-bg"></span>-->
+        <!--/Transition Background (Don't touch)-->
+
+        <!--Transition Text-->
+    <!--    <div class="trans-text">Loading, please wait..</div>-->
+        <!--Transition Text-->
+
+    <!--</div>-->
+    <!--/Page Transitions-->
+
+    <!-- Mouse Cursor -->
+    <div data-dark-circle="rgba(25,27,29,.6)" data-dark-dot="#191b1d" data-light-circle="hsla(0,0%,100%,.2)" data-light-dot="#fff" id="mouseCursor">
+        <div id="cursor"></div>
+        <div id="dot"></div>
+    </div>
+    <!-- /Mouse Cursor -->
+
+    <!-- Header -->
+    <div class="site-header">
+
+        <div class="header-wrapper">
+
+            <!-- Site Branding -->
+            <div class="site-branding" style="margin-right:100vw !important">
+
+                <!-- Site Logos -->
+                <div class="site-logo" style="width:auto">
+                    <a href="index.html">
+                        <img alt="Site Logo" class="dark-logo" src="img/pari_logo.png" style="height:60px;width:auto">
+                        <img alt="Site Logo Light" class="light-logo" src="img/pari_logo.png" style="height:60px;width:auto">
+                    </a>
+                </div>
+                <!-- /Site Logos -->
+
+            </div>
+            <!-- /Site Branding -->
+
+            
+
+            <!-- Site Navigation -->
+            <div class="site-navigation">
+
+                <span class="sub-back"><i class="icofont-long-arrow-left"></i></span>
+
+                <!-- Main Menu -->
+                <ul class="menu main-menu">
+
+                    <li class="menu-item"><a href="index.html">Home</a></li>
+                    <li class="menu-item"><a href="about.html">About Us</a></li>
+                    <li class="menu-item"><a href="services.html">Expertise</a></li>
+                    <li class="menu-item"><a href="works.html">Our Work</a></li>
+                    <li class="menu-item"><a href="contact.html">Contact Us</a></li>
+
+                </ul>
+                <!-- /Main Menu -->
+
+                <!-- Menu Widget (Right) -->
+                <!-- <div class="menu-widget menu-widget-right">
+                    <div class="git-button">
+                        <a href="mailto:hello@pethemes.com">Get in touch!</a>
+                    </div>
+                </div> -->
+                <!-- /Menu Widget (Right) -->
+
+            </div>
+            <!-- /Site Navigation -->
+
+           <!-- Header Widget-->
+           <div class="header-widget hide_desktop">
+
+            <!-- Menu Toggle Button (Don't touch) -->
+            <div class="menu-toggle">
+                <span class="toggle-line"></span>
+                <span class="toggle-line"></span>
+            </div>
+    <!-- /Menu Toggle Button (Don't touch) -->
+
+        </div>
+        <!-- Header Widget-->
+
+         <!-- Header Widgets -->
+         <div class="header-widgets hide_mobile">
+
+            <!-- Header Widget-->
+            <div class="header-widget">
+
+                <!-- Menu Toggle Button (Don't touch) -->
+                <div class="menu-toggle">
+                    <span class="toggle-line"></span>
+                    <span class="toggle-line"></span>
+                </div>
+        <!-- /Menu Toggle Button (Don't touch) -->
+
+            </div>
+            <!-- Header Widget-->
+        </div>
+        <!-- /Header Widgets -->
+
+        </div>
+
+    </div>
+    <!-- /Header -->
+
+    <!-- Page -->
+    <div id="page" data-barba="container">
+
+        <!-- Page Content -->
+        <div id="content" class="page-content">
+            
+            <!--Section-->
+            <div class="section">
+
+                <!--Wrapper-->
+                <div class="wrapper">
+
+                    <span class="a-empty-space" style="height: 200px"></span>
+
+                    <!--Column-->
+                    <div class="c-col-12" style="height:10vh">
+
+                        <!--Linked Text-->
+                        <div class="hello-heading linked-text dark">
+
+                            <h3 class="font4vw" >
+                                We're a design & technology company that helps clients journey towards the future.
+                            </h3>
+
+                        </div>
+                        <!--/Linked Text-->
+
+                    </div>
+                    <!--/Column-->
+
+                </div>
+                <!--/Wrapper-->
+
+                <!--Wrapper-->
+                <div class="wrapper-full no-gap" style="margin-bottom:50px">
+
+                    <!--Column-->
+                    <!-- <div class="c-col-1"></div> -->
+                    <!--/Column-->
+
+                    <!--Column-->
+                    <div class="c-col-12">
+
+                        <!--Embed Video-->
+                        <!-- <div data-interaction="false" data-autoplay="true" class="alioth-embed-video"> -->
+
+                            <!--Video Attributes-->
+                            <!-- <div data-poster="false" class="embed-video" data-plyr-provider="vimeo" data-plyr-embed-id="591025241"></div> -->
+                            <div class="outer-container">
+                                <div class="inner-container">
+                                    <div class="video-overlay">
+                                        <a href="about.html" style="text-decoration: none;color:white">
+                                            <div>
+                                                <span class="animate aboutus_title" data-animate="fadeInUp">AB0UT US</span><br><br>
+                                                <span class="animate aboutus_subtitle" data-animate="fadeInUp" >Engineering Digital Solutions</span><br><br>
+                                                <button class="btnKnwMor" id="show_more_about" >Know more</button>
+                                            <!-- <p class="animate" data-animate="fadeInUp">This is a clean and modern HTML5 template with a video background. You can use this layout for your profile page. Please spread a word about templatemo to your friends. Thank you.</p> -->
+                                            <!-- <div class="scroll-down next-section animate data-animate="fadeInUp""><img src="images/mouse-scroll.png" alt=""><span>Scroll Down</span></div> -->
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <video id="player" src="videos/video3.mp4" autoplay loop muted></video>
+                                </div>
+                            </div>
+                            <!-- <video autoplay muted loop id="myVideo" style="object-fit: cover !important;">
+                                <source src="videos/video2.mp4" type="video/mp4">
+                            </video> -->
+                            <!--/Video Attributes-->
+
+                        <!-- </div> -->
+                        <!--/Embed Video-->
+
+                    </div>
+                    <!--/Column-->
+
+                </div>
+                <!--/Wrapper-->
+
+
+                <!--Wrapper-->
+                <div class="wrapper no-margin">
+
+                    <!--Column-->
+                    <div class="c-col-12">
+
+                        <!--Text Wrapper-->
+                        <div class="text-wrapper">
+
+                            <h3 class="has-anim font3vwcenter" data-stagger="0.1" data-duration="1.5" data-delay=".1" data-animation="linesUp" >
+                                Experiments yields results by bringing technology to life.
+                            </h3>
+
+                        </div>
+                        <!--/Text Wrapper-->
+
+                    </div>
+
+                </div>
+                <!--/Wrapper-->
+
+
+                <div class="wrapper no-margin">
+                    <div class="c-col-12">
+                        <!--Text Wrapper-->
+                        <div class="text-wrapper">
+                            <h1 class="has-anim" data-stagger="0.01" data-duration="1.5" data-delay=".1" data-animation="charsUp">Our work</h1>
+                        </div>
+                        
+                        <div class="testimonial mySwiper">
+                            <div class="testi-content swiper-wrapper">
+                              <div class="slide swiper-slide">
+                                    <div onclick="showHideDiv('unirazakModal')">
+                                         <img id="unirazak" src="img/portfolio/latest/unirazak1.png" style="width:100%;"/>
+                                    </div>
+                                    
+                                     
+ 
+                                  
+                                    <!--<div class="row hide_mobile">-->
+                                    <!--  <div class="column_left">-->
+                                    <!--       <img src="img/portfolio/latest/unirazak.jpg" alt="" class="image"/>-->
+                                    <!--        <div class="details">-->
+                                    <!--            <h4 style="color:red">UR (Event Management Platform for University)</h4>-->
+                                    <!--        </div>-->
+                                    <!--  </div>-->
+                                    <!--  <div class="column_right">-->
+                                    <!--    <p style="font-size:18px;text-align:justify;padding-left:20px;padding-right:30px">-->
+                                    <!--        A web based platform for the university management and administration to post events for -->
+                                    <!--        students. The can send mail students, make announcements, track who and how many students -->
+                                    <!--        are attending and which event student show interest to attend. They can track attendance -->
+                                    <!--        also of those students who have attended the event. It saves a lot of manual work for the -->
+                                    <!--        university and from the start to the end the who event management process is digitalized.-->
+                                    <!--    </p>-->
+                                    <!--  </div>-->
+                                    <!--</div>-->
+                                    
+                                    <!--<div class="row hide_desktop">-->
+                                    <!--    <img src="img/portfolio/latest/unirazak.jpg" alt="" class="image"/>-->
+                                    <!--        <div class="details">-->
+                                    <!--            <h4 style="color:red">UR (Event Management Platform for University)</h4>-->
+                                              <!-- <span class="job">Web Developer</span> -->
+                                    <!--        </div>-->
+                                    <!--    <p style="font-size:18px;text-align:justify;padding-left:10px">-->
+                                    <!--        A web based platform for the university management and administration to post events for -->
+                                    <!--        students. The can send mail students, make announcements, track who and how many students -->
+                                    <!--        are attending and which event student show interest to attend. They can track attendance -->
+                                    <!--        also of those students who have attended the event. It saves a lot of manual work for the -->
+                                    <!--        university and from the start to the end the who event management process is digitalized.-->
+                                    <!--    </p>-->
+                                    <!--</div>-->
+                               
+                                
+                    
+                               
+                              </div>
+                              <div class="slide swiper-slide">
+                                  <div onclick="showHideDiv('scanuttModal')">
+                                         <img id="scannut" src="img/portfolio/latest/scannut1.png" style="width:100%;"/>
+                                    </div>
+                                   
+                                  <!--<div class="row hide_mobile">-->
+                                  <!--      <div class="column_left">-->
+                                  <!--         <img src="img/portfolio/latest/scannut.jpg" alt="" class="image" />-->
+                                  <!--           <div class="details">-->
+                                  <!--              <h4 style="color:red">Scanutt (Gamification App)</h4>-->
+                                  <!--          </div>-->
+                                  <!--    </div>-->
+                                  <!--    <div class="column_right">-->
+                                  <!--      <p style="font-size:18px;text-align:justify;padding-left:20px;padding-right:30px">-->
+                                  <!--          A gamification app for users to play and collect points. The app consist of a QR code -->
+                                  <!--          scan where a user can collects points at various outlets. We were involved in designing of -->
+                                  <!--          this mobile application.-->
+                                  <!--      </p>-->
+                                  <!--    </div>-->
+                                  <!--</div>-->
+                                  <!--<div class="row hide_desktop">-->
+                                  <!--      <img src="img/portfolio/latest/scannut.jpg" alt="" class="image" />-->
+                                  <!--           <div class="details">-->
+                                  <!--              <h4 style="color:red">Scanutt (Gamification App)</h4>-->
+                                  <!--          </div>-->
+                                  <!--      <p style="font-size:18px;text-align:justify;padding-left:10px">-->
+                                  <!--          A gamification app for users to play and collect points. The app consist of a QR code -->
+                                  <!--          scan where a user can collects points at various outlets. We were involved in designing of -->
+                                  <!--          this mobile application.-->
+                                  <!--      </p>-->
+                                  <!--</div>-->
+                              </div>
+                              <div class="slide swiper-slide">
+                                  <div onclick="showHideDiv('jughaModal')">
+                                         <img id="jugha" src="img/portfolio/latest/jugha1.png" style="width:100%;"/>
+                                    </div>
+
+                                  <!--<div class="row hide_mobile">-->
+                                  <!--      <div class="column_left">-->
+                                  <!--          <img src="img/portfolio/jUGHA/3.png" alt="" class="image" />-->
+                                  <!--           <div class="details">-->
+                                  <!--              <h4 style="color:red">JUGHA (Location Booking Platform For Events)</h4>-->
+                                  <!--          </div>-->
+                                  <!--    </div>-->
+                                  <!--    <div class="column_right">-->
+                                  <!--      <p style="font-size:18px;text-align:justify;padding-left:20px;padding-right:30px">-->
+                                  <!--          A web based platform for users list their properties for bookin for events and for users -->
+                                  <!--          to book properties in order to hos events for special events i.e. birthday parties, -->
+                                  <!--          functions wedding reception, family gathering and etc. This platform is soon to be -->
+                                  <!--          launched in Pakistan.-->
+                                  <!--      </p>-->
+                                  <!--    </div>-->
+                                  <!--</div>-->
+                                  
+                                  <!-- <div class="row hide_desktop">-->
+                                  <!--      <img src="img/portfolio/jUGHA/3.png" alt="" class="image" />-->
+                                  <!--       <div class="details">-->
+                                  <!--          <h4 style="color:red">JUGHA (Location Booking Platform For Events)</h4>-->
+                                  <!--      </div>-->
+                                  <!--      <p style="font-size:18px;text-align:justify;padding-left:10px">-->
+                                  <!--          A web based platform for users list their properties for bookin for events and for users -->
+                                  <!--          to book properties in order to hos events for special events i.e. birthday parties, -->
+                                  <!--          functions wedding reception, family gathering and etc. This platform is soon to be -->
+                                  <!--          launched in Pakistan.-->
+                                  <!--      </p>-->
+                                  <!--</div>-->
+                              </div>
+                              <div class="slide swiper-slide">
+                                  <div onclick="showHideDiv('painsboardModal')">
+                                         <img id="painsboard" src="img/portfolio/latest/painsboard1.png" style="width:100%;"/>
+                                    </div>
+                                    <!--<div class="row hide_mobile">-->
+                                    <!--    <div class="column_left">-->
+                                    <!--        <img src="img/portfolio/latest/painsboard.jpg" alt="" class="image" />-->
+                                    <!--         <div class="details">-->
+                                    <!--             <h4 style="color:red">Painsboard(Complaint Management System)</h4>-->
+                                    <!--        </div>-->
+                                    <!--  </div>-->
+                                    <!--  <div class="column_right">-->
+                                    <!--    <p style="font-size:18px;text-align:justify;padding-left:20px;padding-right:30px">-->
+                                    <!--        Painsboard is a platform to harvest painpoints faced by employees and to open up doors of -->
+                                    <!--        transformational value-added communications within an organization. The system comprises -->
+                                    <!--        of multiple users. It is equipped with statistical and data analytics features which makes -->
+                                    <!--        this system much more than just a complaint reporting platform. The platform can be -->
+                                    <!--        deployed in an organization to enhance the human resource department.-->
+                                    <!--    </p>-->
+                                    <!--  </div>-->
+                                    <!--</div>-->
+                                    
+                                    <!--<div class="row hide_desktop">-->
+                                    <!--    <img src="img/portfolio/latest/painsboard.jpg" alt="" class="image" />-->
+                                    <!--    <div class="details">-->
+                                    <!--         <h4 style="color:red">Painsboard(Complaint Management System)</h4>-->
+                                    <!--    </div>-->
+                                    <!--  <p style="font-size:18px;text-align:justify;padding-left:10px">-->
+                                    <!--        Painsboard is a platform to harvest painpoints faced by employees and to open up doors of -->
+                                    <!--        transformational value-added communications within an organization. The system comprises -->
+                                    <!--        of multiple users. It is equipped with statistical and data analytics features which makes -->
+                                    <!--        this system much more than just a complaint reporting platform. The platform can be -->
+                                    <!--        deployed in an organization to enhance the human resource department.-->
+                                    <!--    </p>-->
+                                    <!--</div>-->
+                              </div>
+                              <div class="slide swiper-slide">
+                                   <div onclick="showHideDiv('lmsModal')">
+                                         <img id="lms" src="img/portfolio/latest/lms1.png" style="width:100%;"/>
+                                    </div>
+                                  <!--<div class="row hide_mobile">-->
+                                  <!--      <div class="column_left">-->
+                                  <!--         <img src="img/portfolio/latest/LMS.jpg" alt="" class="image" />-->
+                                  <!--           <div class="details">-->
+                                  <!--              <h4 style="color:red">Learn X</h4>-->
+                                  <!--          </div>-->
+                                  <!--    </div>-->
+                                  <!--    <div class="column_right">-->
+                                  <!--      <p style="font-size:18px;text-align:justify;padding-left:20px;padding-right:30px">-->
+                                  <!--          Learn X is a Learning Management System (LMS) designed for university students -->
+                                  <!--          for an interactive learning experience. The system comprises of multiple users i.e. -->
+                                  <!--          student and teachers. Built around a gamification approach it makes learning interesting -->
+                                  <!--          and accessible.-->
+                                  <!--      </p>-->
+                                  <!--    </div>-->
+                                  <!--</div>-->
+                                  
+                                  <!--<div class="row hide_desktop">-->
+                                  <!--      <img src="img/portfolio/latest/LMS.jpg" alt="" class="image" />-->
+                                  <!--           <div class="details">-->
+                                  <!--              <h4 style="color:red">Learn X</h4>-->
+                                  <!--          </div>-->
+                                  <!--      <p style="font-size:18px;text-align:justify;padding-left:10px">-->
+                                  <!--          Learn X is a Learning Management System (LMS) designed for university students -->
+                                  <!--          for an interactive learning experience. The system comprises of multiple users i.e. -->
+                                  <!--          student and teachers. Built around a gamification approach it makes learning interesting -->
+                                  <!--          and accessible.-->
+                                  <!--      </p>-->
+                                  <!--</div>-->
+                              </div>
+                              <div class="slide swiper-slide">
+                                   <div onclick="showHideDiv('youtopiaModal')">
+                                         <img id="youtopia" src="img/portfolio/latest/youtopia1.png" style="width:100%;"/>
+                                    </div>
+                                  <!--<div class="row hide_mobile">-->
+                                  <!--      <div class="column_left">-->
+                                  <!--         <img src="img/portfolio/latest/youtopia.jpg" alt="" class="image" />-->
+                                  <!--           <div class="details">-->
+                                  <!--              <h4 style="color:red">Youtopia</h4>-->
+                                  <!--          </div>-->
+                                  <!--    </div>-->
+                                  <!--    <div class="column_right">-->
+                                  <!--      <p style="font-size:18px;text-align:justify;padding-left:20px;padding-right:30px">-->
+                                  <!--          Youtopia is a F&#38;B digital solution comprising of a mobile app designed for users and a -->
+                                  <!--          restaurant management system (RMS) designed for restaurant owners/ management. The users -->
+                                  <!--          can locate the restaurants with best promotions, view menu and upon arrival to the -->
+                                  <!--          restaurant use QR code to order and later review. The RMS is for the restaurant management -->
+                                  <!--          to manage operations in real time, post promotions, receive reviews and market their outlet.-->
+                                  <!--      </p>-->
+                                  <!--    </div>-->
+                                  <!--</div>-->
+                                  
+                                  <!--<div class="row hide_desktop">-->
+                                  <!--     <img src="img/portfolio/latest/youtopia.jpg" alt="" class="image" />-->
+                                  <!--           <div class="details">-->
+                                  <!--              <h4 style="color:red">Youtopia</h4>-->
+                                  <!--          </div>-->
+                                  <!--       <p style="font-size:18px;text-align:justify;padding-left:10px">-->
+                                  <!--              Youtopia is a F&#38;B digital solution comprising of a mobile app designed for users and a -->
+                                  <!--              restaurant management system (RMS) designed for restaurant owners/ management. The users -->
+                                  <!--              can locate the restaurants with best promotions, view menu and upon arrival to the -->
+                                  <!--              restaurant use QR code to order and later review. The RMS is for the restaurant management -->
+                                  <!--              to manage operations in real time, post promotions, receive reviews and market their outlet.-->
+                                  <!--          </p>-->
+                                  <!--</div>-->
+                              </div>
+                              
+                              <div class="slide swiper-slide">
+                                   <div onclick="showHideDiv('doohxModal')">
+                                         <img id="dooh" src="img/portfolio/latest/dooh1.png" style="width:100%;height:100vh"/>
+                                    </div>
+                                  <!--<div class="row hide_mobile">-->
+                                  <!--      <div class="column_left">-->
+                                  <!--         <img src="img/portfolio/latest/youtopia.jpg" alt="" class="image" />-->
+                                  <!--           <div class="details">-->
+                                  <!--              <h4 style="color:red">Youtopia</h4>-->
+                                  <!--          </div>-->
+                                  <!--    </div>-->
+                                  <!--    <div class="column_right">-->
+                                  <!--      <p style="font-size:18px;text-align:justify;padding-left:20px;padding-right:30px">-->
+                                  <!--          Youtopia is a F&#38;B digital solution comprising of a mobile app designed for users and a -->
+                                  <!--          restaurant management system (RMS) designed for restaurant owners/ management. The users -->
+                                  <!--          can locate the restaurants with best promotions, view menu and upon arrival to the -->
+                                  <!--          restaurant use QR code to order and later review. The RMS is for the restaurant management -->
+                                  <!--          to manage operations in real time, post promotions, receive reviews and market their outlet.-->
+                                  <!--      </p>-->
+                                  <!--    </div>-->
+                                  <!--</div>-->
+                                  
+                                  <!--<div class="row hide_desktop">-->
+                                  <!--     <img src="img/portfolio/latest/youtopia.jpg" alt="" class="image" />-->
+                                  <!--           <div class="details">-->
+                                  <!--              <h4 style="color:red">Youtopia</h4>-->
+                                  <!--          </div>-->
+                                  <!--       <p style="font-size:18px;text-align:justify;padding-left:10px">-->
+                                  <!--              Youtopia is a F&#38;B digital solution comprising of a mobile app designed for users and a -->
+                                  <!--              restaurant management system (RMS) designed for restaurant owners/ management. The users -->
+                                  <!--              can locate the restaurants with best promotions, view menu and upon arrival to the -->
+                                  <!--              restaurant use QR code to order and later review. The RMS is for the restaurant management -->
+                                  <!--              to manage operations in real time, post promotions, receive reviews and market their outlet.-->
+                                  <!--          </p>-->
+                                  <!--</div>-->
+                              </div>
+                            </div>
+                            <div class="swiper-button-next nav-btn"></div>
+                            <div class="swiper-button-prev nav-btn"></div>
+                            <!-- <div class="swiper-pagination"></div> -->
+                          </div>
+
+                    </div>
+                    
+                </div>
+                
+                <div class="wrapper no-margin">
+                    <div class="c-col-12">
+                        <!--Text Wrapper-->
+                        <div class="text-wrapper">
+                            <h1 class="has-anim" data-stagger="0.01" data-duration="1.5" data-delay=".1" data-animation="charsUp">Testimonials</h1>
+                        </div>
+                        
+                        <div class="testimonial mySwiper">
+                            <div class="testi-content swiper-wrapper">
+                                <div class="slide swiper-slide">
+                                    <div class="row hide_mobile">
+                                      <div class="column_left_image">
+                                           <img src="img/testimoni/ur1_1.png" alt="" style="height:200px"/>
+                                            <div>
+                                                <h4 style="width:100%;margin-bottom:0px">Safwan</h4>
+                                                <h6 >Director, Student Experience Department-Unirazak</h6>
+                                              <!-- <span class="job">Web Developer</span> -->
+                                            </div>
+                                      </div>
+                                      <div class="column_right_image">
+                                        <p style="font-size:25px;text-align:justify;padding-left:20px;padding-right:30px">
+                                           As a customer of PARI Technologies, my experience working with them to develop the UR Event App was exceptional. 
+                                            From the very beginning, they made communication easy and were receptive to my visions and ideas. PARI Technologies 
+                                            demonstrated professionalism and expertise, transforming my requirements into a user-friendly app with seamless navigation.
+                                        </p>
+                                      </div>
+                                    </div>
+                                    
+                                    <div class="row hide_desktop">
+                                        <img src="img/testimoni/ur1_1.png" alt="" class="image center"/>
+                                            <div class="details" style="padding:10px">
+                                                <h4 style="margin-bottom:0px">Safwan</h4>
+                                                <h6>Director, Student Experience Department-Unirazak</h6>
+                                            </div>
+                                        <p style="font-size:18px;text-align:justify;padding-left:10px">
+                                           As a customer of PARI Technologies, my experience working with them to develop the UR Event App was exceptional. 
+                                            From the very beginning, they made communication easy and were receptive to my visions and ideas. PARI Technologies 
+                                            demonstrated professionalism and expertise, transforming my requirements into a user-friendly app with seamless navigation.
+                                        </p>
+                                    </div>
+                                </div>
+                                
+                                <div class="slide swiper-slide">
+                                    <div class="row hide_mobile">
+                                      <div class="column_left_image">
+                                           <img src="img/testimoni/rev2.jpeg" alt="" style="height:200px"/>
+                                            <div>
+                                                <h4 style="width:100%;margin-bottom:0px">Dr. Alairic</h4>
+                                                <h6>Corporate Liaison, Shortwavez Sdn Bhd</h6>
+                                              <!-- <span class="job">Web Developer</span> -->
+                                            </div>
+                                      </div>
+                                      <div class="column_right_image">
+                                        <p style="font-size:25px;text-align:justify;padding-left:20px;padding-right:30px">
+                                            As PARI Technologies first client, I would like to express my heartfelt gratitude to the various lessons 
+                                            learnt as an independent startup company. We would also commend Mr. Babar Khan, the CEO for his long term 
+                                            commitments on the various projects undertaken and look forward to their growth in the ever dynamic Tech 
+                                            Industry.
+                                        </p>
+                                      </div>
+                                    </div>
+                                    
+                                    <div class="row hide_desktop">
+                                        <img src="img/testimoni/rev2.jpeg" alt="" class="image center"/>
+                                            <div class="details" style="padding:10px">
+                                                <h4 style="margin-bottom:0px">Dr. Alairic</h4>
+                                                <h6>Corporate Liaison, Shortwavez Sdn Bhd</h6>
+                                            </div>
+                                        <p style="font-size:18px;text-align:justify;padding-left:10px">
+                                            As PARI Technologies first client, I would like to express my heartfelt gratitude to the various lessons 
+                                            learnt as an independent startup company. We would also commend Mr. Babar Khan, the CEO for his long term 
+                                            commitments on the various projects undertaken and look forward to their growth in the ever dynamic Tech 
+                                            Industry.
+                                        </p>
+                                    </div>
+                                </div>
+                                
+                                <div class="slide swiper-slide">
+                                    <div class="row hide_mobile">
+                                      <div class="column_left_image">
+                                           <img src="img/testimoni/pain1.jpeg" alt="" style="height:200px"/>
+                                            <div>
+                                                <h4 style="width:100%;margin-bottom:0px">Dr.Ahmad Rahaman Songip</h4>
+                                                <h6 style="width:100%;">Managing Director</h6>
+                                              <!-- <span class="job">Web Developer</span> -->
+                                            </div>
+                                      </div>
+                                      <div class="column_right_image">
+                                        <p style="font-size:25px;text-align:justify;padding-left:20px;padding-right:30px">
+                                            After much research we engaged PARI to develop our platform which was a very detailed oriented project. 
+                                            The professionalism and enthusiasm they displayed is commendable. They did their research, gave suggestions,
+                                            recommendations and met each deadline we gave them. We also requested numerous changes and they entertained 
+                                            us every time. Their support team also helped us on numerous urgent occasions. We had a wonderful 
+                                            experience working with them.
+                                        </p>
+                                      </div>
+                                    </div>
+                                    
+                                    <div class="row hide_desktop">
+                                        <img src="img/testimoni/pain1.jpeg" alt="" class="image center"/>
+                                            <div class="details" style="padding:10px">
+                                                <h4 style="margin-bottom:0px">Dr.Ahmad Rahaman Songip</h4>
+                                                <h6>Managing Director</h6>
+                                            </div>
+                                        <p style="font-size:18px;text-align:justify;padding-left:10px">
+                                            After much research we engaged PARI to develop our platform which was a very detailed oriented project. 
+                                            The professionalism and enthusiasm they displayed is commendable. They did their research, gave suggestions,
+                                            recommendations and met each deadline we gave them. We also requested numerous changes and they entertained 
+                                            us every time. Their support team also helped us on numerous urgent occasions. We had a wonderful 
+                                            experience working with them.
+                                        </p>
+                                    </div>
+                                </div>
+                                
+                                
+                                <div class="slide swiper-slide">
+                                    <div class="row hide_mobile">
+                                      <div class="column_left_image">
+                                           <img src="img/testimoni/rev1.png" alt="" style="height:200px"/>
+                                            <div>
+                                                <h4 style="width:100%;margin-bottom:0px">Aniket Mukerjee</h4>
+                                                <h6 style="width:100%;">C.E.O. Asap Mobility</h6>
+                                               <!--<span class="job">Web Developer</span> -->
+                                            </div>
+                                      </div>
+                                      <div class="column_right_image">
+                                        <p style="font-size:25px;text-align:justify;padding-left:20px;padding-right:30px">
+                                            The team of PARI is very creative and analytical. They gave us various options to our needs and will 
+                                            suggest the most cost-effective option available. They worked closely with our team and had a very 
+                                            friendly relation with them unlike the customer client relationship we have had in the past. Always 
+                                            willing to go the extra mile.
+                                        </p>
+                                      </div>
+                                    </div>
+                                    
+                                    <div class="row hide_desktop">
+                                        <img src="img/testimoni/rev1.png" alt="" class="image center"/>
+                                            <div class="details" style="padding:10px">
+                                                <h4 style="margin-bottom:0px">Aniket Mukerjee</h4>
+                                                <h6>C.E.O. Asap Mobility</h6>
+                                            </div>
+                                        <p style="font-size:18px;text-align:justify;padding-left:10px">
+                                            The team of PARI is very creative and analytical. They gave us various options to our needs and will 
+                                            suggest the most cost-effective option available. They worked closely with our team and had a very 
+                                            friendly relation with them unlike the customer client relationship we have had in the past. Always 
+                                            willing to go the extra mile.
+                                        </p>
+                                    </div>
+                                </div>
+                             
+                              
+                            </div>
+                            <div class="swiper-button-next nav-btn"></div>
+                            <div class="swiper-button-prev nav-btn"></div>
+                            <!-- <div class="swiper-pagination"></div> -->
+                          </div>
+                          
+                                       <!--Wrapper-->
+                <div class="wrapper-full no-margin" style="padding-top:100px">
+                     <div class="c-col-12">
+                          <!--Text Wrapper-->
+                            <div class="text-wrapper">
+                                 <div><i>Up next</i></div>
+                                <a href="services.html">
+                                    <h1 class="has-anim" data-stagger="0.01" data-duration="1.5" data-delay=".1" data-animation="charsUp">EXPERTISE&#8594;</h1>
+                                </a>
+                            </div>
+                     </div>
+
+                </div>
+                <!--/Wrapper-->
+
+                    </div>
+                </div>
+             </div>
+            </div>
+        </div>
+        
+        <!-- The Modal -->
+    <div id="unirazakModal" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close" onlick="closeModal('unirazakModal')">&times;</span>
+        <h4>UR (Event App for University Students)</h4>
+        <p>An event app for students, they can:</p>
+        <ul>
+            <li>Browse events</li>
+            <li>Students can signup to attend events</li>
+            <li>Add to their in app calendar or to their Google Calendar</li>
+            <li>Add the events to wishlist</li>
+            <li>Scan QR code to confirm their attendance</li>
+        </ul>
+        
+        <h4>UR (Event Management Platform for University)</h4>
+        <p>A web based admin portal with following features:</p>
+        <ul>
+            <li>Post events for students</li>
+            <li>Send mail students</li>
+            <li>Make announcements & Update University News</li>
+            <li>Record & Track attendance</li>
+        </ul>
+      </div>
+    
+    </div>
+    
+    <div id="scanuttModal" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close" onclick="closeModal('scanuttModal')">&times;</span>
+        <h4>Scanutt (Gamification App)</h4>
+        <p>A gamification app for users to play and collect points. The app consist of a QR code scan where a user can collect points at various outlets.</p>
+        <p>We were involved in the designing of this mobile application</p>
+        
+      </div>
+    
+    </div>
+    
+    <div id="jughaModal" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close" onclick="closeModal('jughaModal')">&times;</span>
+        <h4>Venue Booking Platform</h4>
+        <p>A multi user web based vennue listing and booking platform for to list venues to be booked for events and to book venues for events i.e birthday parties, functions, wedding reception, family gathering and corporate events.</p>
+        <p>With features such as:</p>
+        <ul>
+            <li>Able to view te venue personally or via videos or pics before booking</li>
+            <li>Able to communicate directly with the landlord/owner</li>
+            <li>Each venue comes with a list of caterers, decorators and other services which is recommended or the user can make their own arrangement.</li>
+            <li>A feedback mechanism</li>
+            <li>Online payments</li>
+        </ul>
+        
+      </div>
+    
+    </div>
+    
+    <div id="painsboardModal" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close" onclick="closeModal('painsboardModal')">&times;</span>
+        <h4>Complaint Management System</h4>
+        <p>A Complaint Management System to harvest pain points faced by employees in an organizations. It's a platform which open-up doors to create value creations communication within an organization</p>
+        <p>This multi user platform where issues and pain points are highlighted by employees and addressed by the management. It is equipped with analytics of keyword searches, various categories to measure certain sentiments via a certain mechanism.</p>
+        <p>There is a social feature where comments can be posted by the personals who are in the same department so to give their comments and give suggestions.</p>
+        
+      </div>
+    
+    </div>
+    
+    
+    <div id="lmsModal" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close" onclick="closeModal('lmsModal')">&times;</span>
+        <h4>Learning Management System - LMS</h4>
+        <p>An interactive and intuitive learning management system for E-Learning with following features:</p>
+        <ul>
+            <li>Multiple type of content to learn from</li>
+            <li>A variety of quizzes to make it interesting and engaging</li>
+            <li>Online classes and videos</li>
+            <li>Interact with the lecturers virtually</li>
+            <li>Submit assignments through the portal</li>
+            <li>Can see their marks, grading and attendance</li>
+        </ul>
+        The system is accompanied with a super admin to upload content and manage students and the coursework digitally. It can assigned users
+        with specific roles and comes with analytics or certain permutations which are required to be seen. The dashboard can be customize according
+        to the requirements of information it wants to see at a glance.
+      </div>
+    
+    </div>
+    
+    
+    <div id="youtopiaModal" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close" onclick="closeModal('youtopiaModal')">&times;</span>
+        <h4>E-Food Ordering App</h4>
+        <p>Through Youtopia App user can view menu and place orders.</p>
+        <p>The app taps into the idea of a virtual waiter app - where the customers can scan the QR code, go to the digital menu and order.</p>
+        <p>Predictive AI is infused to give recommendations and suggestions.</p>
+        <p>Gives location based promotions to users.</p>
+        <p>A restaurant management system through which:</p>
+        <ul>
+            <li>Promotions are posted.</li>
+            <li>Create digital menu.</li>
+            <li>Order tracking and analytics platform</li>
+        </ul>
+        Built in pos and various others essential features making it a complete ERP solution.
+      </div>
+    
+    </div>
+    
+    
+    <div id="doohxModal" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close" onclick="closeModal('doohxModal')">&times;</span>
+        <h4>Digital Out Of Home Platform</h4>
+        <p>A web based platform designed and developed for Digital Out Of Home (DOOH) business such as agencies and media owners who provide digital billboards for marketing all over Malaysia.</p>
+        <p>The system is developed for the sales staff in agencies to access and view their Site Inventory Management, Quotation Generation and Location Listing. It also has various analytics through a dashboard.</p>
+        <p>It enhances the sales process by accessing locations in database within a few clicks. The filtering mechanism narrows it down to a specific location through a set of parameters of Geo Targets and Impact Assessment.</p>
+        
+      </div>
+    
+    </div>
+      
+
+    <!-- Site Footer -->
+    <div id="footer" class="site-footer section">
+
+        <!-- Footer Wrapper (Top) -->
+        <div class="wrapper">
+
+            <!-- Footer Branding -->
+            <div class="c-col-4 footer-widget footer_brand">
+
+                <!-- Footer Logo -->
+                <div class="footer-logo c-col-1" style="margin-bottom:0px;padding-bottom:0px">
+                    <img alt="Footer Logo" src="img/pari_logo.png" style="height:80px"> 
+                    <h4 style="margin-bottom:0px">Find Us</h4>
+                </div>
+                <div class="c-col-1" style="padding-top: 10px;">
+                    
+                    <div class="alioth-text-box">
+                    <h5 style="color: rgba(25,27,29,.6);font-size:15px">
+                        Level 27 Penthouse, Centrepoint North
+                        <br>Mid Valley City, Lingkaran Syed Putra
+                        <br>59200, Kuala Lumpur, Malaysia.
+                        <br>+60 12-209 1895
+                        <br>info@pari.com.my
+                    </h5>
+
+                    </div>
+                </div>
+                <!-- Footer Logo -->
+
+            </div>
+            <!--/ Footer Branding -->
+
+            <!-- Footer Widget -->
+            <div class="c-col-4 footer-widget">
+
+               <!-- Text Box -->
+               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.0342437338913!2d101.57953831049429!3d3.0855356535275504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc4d3d0bc5a403%3A0xb6e013a2ec3a8e51!2sP.A.R.I.%20Technologies%20(M)%20Sdn%20Bhd!5e0!3m2!1sen!2smy!4v1689523821008!5m2!1sen!2smy" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+               <!--/ Text Box -->                
+
+
+            </div>
+            <!--/ Footer Widget -->
+
+            <!-- Footer Widget -->
+            <div class="c-col-4 footer-widget" style="float:left">
+                
+                <div class="social-buttons">
+                    <a href="">
+                        <div style="height:50px">
+                            <img src="img/icon_ig.png" style="height:50px;width:50px;vertical-align: middle;">
+                            <label>Instagram</label>
+                        </div>
+                    </a>
+                    
+                    <a href="https://www.facebook.com/paritechmalaysia">
+                        <div>
+                            <img src="img/icon_fb.png" style="height:50px;width:50px;vertical-align: middle;">
+                            <label>Facebook</label>
+                        </div>
+                    </a>
+                    <div>
+                        <img src="img/icon_phone.png" style="height:50px;width:50px;vertical-align: middle;">
+                        <label>+60 12-209 1895</label>
+                    </div>
+                    
+                <div></div>
+
+            </div>
+            <!--/ Footer Widget -->
+
+        </div>
+        <!--/ Footer Wraper (Top) -->
+
+    </div>
+    <!-- /Site Footer -->
+
+    <div id="container-floating">
+        <a href="contact.html" style="display:block;position:absolute; width:100%; height:100%; top:0; left: 0; z-index: 10;">
+          <div id="floating-button">
+              
+                  <p class="plus">
+                      <img src="https://ssl.gstatic.com/bt/C3341AA7A1A076756462EE2E5CD71C11/1x/bt_compose2_1x.png"></p>
+                  <img class="edit" src="https://ssl.gstatic.com/bt/C3341AA7A1A076756462EE2E5CD71C11/1x/bt_compose2_1x.png">
+              
+          </div>
+        </a>
+      </div>
+      </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/barba.js"></script>
+    <script src="js/locomotive-scroll.min.js"></script>
+    <script src="js/gsap.js"></script>
+    <script src="js/scripts.js"></script>
+
+    <script>
+        $('.slide-nav').on('click', function(e) {
+  e.preventDefault();
+  // get current slide
+  var current = $('.flex--active').data('slide'),
+    // get button data-slide
+    next = $(this).data('slide');
+
+  $('.slide-nav').removeClass('active');
+  $(this).addClass('active');
+
+  if (current === next) {
+    return false;
+  } else {
+    $('.slider__warpper').find('.flex__container[data-slide=' + next + ']').addClass('flex--preStart');
+    $('.flex--active').addClass('animate--end');
+    setTimeout(function() {
+      $('.flex--preStart').removeClass('animate--start flex--preStart').addClass('flex--active');
+      $('.animate--end').addClass('animate--start').removeClass('animate--end flex--active');
+    }, 800);
+  }
+});
+    </script>
+
+
+<script>
+    let slideIndex = 0;
+    showSlides();
+    
+    function showSlides() {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}    
+
+      slides[slideIndex-1].style.display = "block";  
+      setTimeout(showSlides, 8000); // Change image every 2 seconds
+    }
+    </script>
+
+
+    <script>
+    var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 1,
+    grabCursor: true,
+    loop: true,
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+    });
+    
+    
+    function showHideDiv(divName) {
+        // alert(divName);
+        // alert(document.getElementById(divName).src);
+        // var src_name1 = "http://pari.com.my/demo4/img/portfolio/latest/"+divName+"1.png";
+        // var src_name2 = "http://pari.com.my/demo4/img/portfolio/latest/"+divName+"2.png";
+        // if (document.getElementById(divName).src == src_name1){
+        //     document.getElementById(divName).src = src_name2;
+        //     } else {
+        //         document.getElementById(divName).src = src_name1;
+        //     }
+        // }
+        
+        // Get the modal
+        var modal = document.getElementById(divName);
+        
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+        
+        // When the user clicks on the button, open the modal
+        // btn.onclick = function() {
+          modal.style.display = "block";
+        // }
+        
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function() {
+          modal.style.display = "none";
+        }
+        
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+          if (event.target == modal) {
+            modal.style.display = "none";
+          }
+        } 
+}
+
+    function closeModal(divName) {
+        // Get the modal
+        var modal = document.getElementById(divName);
+        modal.style.display = "none";
+
+}
+    </script>
+    
+     
+</body>
+
+</html>
